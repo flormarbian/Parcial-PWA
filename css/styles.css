@@ -1,0 +1,115 @@
+/* Paleta de colores elegida
+https://coolors.co/palette/323a3e-65747c-eef0f1-3e3632-323e39
+ */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+input {
+    cursor: pointer;
+}
+.container-weather{
+    min-height: 100vh;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.container-weather::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+h2, h2, h3 {
+    color: #EEF0F1;
+}
+
+#container-form {
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 20%;
+    background:#323a3e94;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+p {
+    color: white;
+}
+.form {
+    width: fit-content;
+}
+
+.btn-primary{
+    background-color:transparent ;
+    border-color: white;
+    border-radius: 50px 50px;
+    
+}
+
+.btn-primary:hover {
+    background-color: #323E39;    
+    color:#EEF0F1 ;
+    transition: 0.2s ease-in-out;
+}
+input{
+    background-color: transparent;
+    color: #EEF0F1;
+    border-radius: 5%;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+strong{
+ font-size: 1.2em;
+}
+
+.maxima {
+    font-size: 2em;
+}
+
+#principal {
+    position: absolute;
+    bottom: 0;
+    margin: 2% 5%;
+    width: 50%;
+    
+}
+
+#principal img {
+    float: left;
+    
+}
+
+#principal h3{
+    width: auto;
+    padding-top: 7px;
+    
+
+}
+
+#icono {
+    margin-top: 36%;
+    margin-left: 2%;
+}
